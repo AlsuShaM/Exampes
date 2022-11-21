@@ -1,0 +1,53 @@
+<mxfile host="65bd71144e">
+    <diagram id="0dUG-3jIiLlFMFpSVe63" name="Page-1">
+        <mxGraphModel dx="890" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(171 , 178 , 191) ; background-color: rgb(40 , 44 , 52) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-weight: normal ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #7f848e&quot;&gt;// Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d19a66&quot;&gt;7&lt;/span&gt;&lt;span style=&quot;color: #abb2bf&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #e06c75&quot;&gt;и&lt;/span&gt;&lt;span style=&quot;color: #abb2bf&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #d19a66&quot;&gt;23&lt;/span&gt;&lt;span style=&quot;color: #abb2bf&quot;&gt;.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #7f848e&quot;&gt;// 1. задать число&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #7f848e&quot;&gt;// 2. проверяем кратность к чилам 7 и 23&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(171 , 178 , 191) ; background-color: rgb(40 , 44 , 52) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #7f848e&quot;&gt;// вывести результат&lt;/span&gt;&lt;span style=&quot;color: rgb(127 , 132 , 142)&quot;&gt;// вывести результат&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="-600" width="550" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="-550" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="n = 4&lt;br&gt;a = 7&lt;br&gt;b = 23" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="-460" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Yes" style="edgeStyle=none;html=1;" edge="1" parent="1" source="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="420" y="-330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;" edge="1" parent="1" source="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="160" y="-330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="n / a&amp;nbsp;&lt;br&gt;n / b&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="-370" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Вывод&amp;nbsp;&lt;br&gt;кратно" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="-360" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;" edge="1" parent="1" source="11" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Вывод&amp;nbsp;&lt;br&gt;некратно" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="-360" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="-260" width="120" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
